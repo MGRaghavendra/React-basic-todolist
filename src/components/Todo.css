@@ -1,0 +1,36 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.todo > button {
+  line-height: 1.5;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  border-radius: 5px;
+  padding: 7px 0px;
+  width: 100px;
+  background: transparent;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all 0.2s ease;
+}
+
+.todo > button:hover {
+  transform: scale(1.1);
+}
+
+.todo > p {
+  text-align: left;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-style: italic;
+}
